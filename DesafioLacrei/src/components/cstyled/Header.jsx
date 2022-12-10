@@ -37,14 +37,14 @@ const Header = styled.header `
 
     }
     .list{
-        display: flex;
         list-style: none;
-        align-items:  center;
+        display: flex;
+        align-items:  center; 
+        gap: 2.5rem;
+        justify-content:space-between;
     }
-    .item{
-       margin-right: 2.5rem;
-    }
-    & a{
+ 
+    .item a{
         
         font-style: normal;
         font-weight: 700;
@@ -59,8 +59,10 @@ const Header = styled.header `
     @media(max-width: 1040px) {
         padding: 0.5rem 2rem;
 
+        .list{
+            gap: 2rem;
         
-   
+        }
     }   
     @media(max-width: 550px) {
         padding: 0.5rem 1rem;
@@ -69,12 +71,16 @@ const Header = styled.header `
             flex-direction:  column;
             align-items:center
         }
-         .item{
-       margin-right: 2.5rem;
-       }
-   
+        
+        .list{
+            gap: 1rem;
+        
+        }
+        .item a{
+            font-size: 14px;
+            line-height: 20px;
+        }
     }   
-
 `;
 
 export default Header
