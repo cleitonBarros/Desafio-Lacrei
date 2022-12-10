@@ -42,7 +42,7 @@ const Header = styled.header `
         align-items:  center;
     }
     .item{
-       gap: 2rem
+       margin-right: 2.5rem;
     }
     & a{
         
@@ -70,7 +70,7 @@ const Header = styled.header `
             align-items:center
         }
          .item{
-      
+       margin-right: 2.5rem;
        }
    
     }   
