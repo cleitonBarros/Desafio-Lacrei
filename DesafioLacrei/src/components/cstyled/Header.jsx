@@ -7,17 +7,14 @@ const Header = styled.header `
     background: #EEEEEE;
     padding: 0.5rem 4rem;
    
-    
     .logo{
-        
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 44px;
         color: #018762;
         display: flex;
-        align-items: center;
-        
+        align-items: center; 
     }
     & a{
         transition: all 0.2s ease 0s;
@@ -33,8 +30,6 @@ const Header = styled.header `
         justify-content: space-between;
         margin:0 auto;
         flex-wrap: wrap;
-        
-
     }
     .list{
         list-style: none;
@@ -50,9 +45,11 @@ const Header = styled.header `
         font-weight: 700;
         font-size: 16px;
         line-height: 22px;
-        color: #1F1F1F;
+       
+        color: #1f1f1f;
         text-decoration: none;
     }
+    
     & a:hover{
         opacity: 0.7;
     }
@@ -85,5 +82,4 @@ const Header = styled.header `
         }
     }   
 `;
-
 export default Header
