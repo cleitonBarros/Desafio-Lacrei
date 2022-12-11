@@ -6,7 +6,7 @@ import Profissional from "./components/pages/Profissional"
 
 import Container from "./components/layouts/container"
 import Navbar from "./components/layouts/navbar"
-import Footer from "./components/layouts/Footer"
+import Footer from "./components/layouts/footer"
 
 
 function App() {
