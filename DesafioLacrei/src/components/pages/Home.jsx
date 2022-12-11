@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import Home_Rafiki from '../../assets/img/Home_Rafiki.svg'
 
 function Home(){
+  
     return (
     <>
         <Box>
