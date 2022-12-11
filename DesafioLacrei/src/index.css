@@ -9,3 +9,6 @@ body, html, #root{
     height: 100%;
     -webkit-font-smoothing: antialiased;
 }
+a{
+    color: #fff;
+}

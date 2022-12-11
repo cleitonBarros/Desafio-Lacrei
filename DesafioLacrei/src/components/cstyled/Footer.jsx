@@ -16,7 +16,7 @@ const Footer = styled.footer `
         gap: 2.5rem;   
     }
     .item a{   
-        font-style: normal;
+        font-weight: ${(props) => window.location.pathname === props.page ? "700" : "400"};
         font-size: 16px;
         line-height: 22px;
         color: #1F1F1F;

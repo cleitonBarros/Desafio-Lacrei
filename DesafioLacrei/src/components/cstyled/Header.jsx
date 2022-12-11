@@ -54,7 +54,10 @@ const Header = styled.header `
         text-decoration: none;
     }
     & a:hover{
-        color:#018762;
+        opacity: 0.7;
+    }
+    & a.active{
+        color: #018762;
     }
     @media(max-width: 1040px) {
         padding: 0.5rem 2rem;

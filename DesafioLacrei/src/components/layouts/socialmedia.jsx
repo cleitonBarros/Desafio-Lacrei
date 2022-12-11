@@ -1,4 +1,4 @@
-import SocialMedia  from '../cstyled/SocialMedia'
+import SocialMedia  from '../cstyled/SocialM'
 
 import  FacebookLogo from "../../assets/icons/FacebookLogo.svg"
 import  InstagramLogo  from "../../assets/icons/InstagramLogo.svg"

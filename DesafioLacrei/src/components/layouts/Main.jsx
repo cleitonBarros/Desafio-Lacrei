@@ -7,16 +7,13 @@ const Main = styled.main `
     justify-content: space-between;
     align-items: flex-start;
 
-    .start{
-        justify-content: flex-start;
-    }
 
-    .column{
-        flex-direction: column;
-        justify-content: flex-start
-    }
     @media(max-width: 1040px) {
+        flex-direction: column;
+        align-items: center;
         padding: 2rem 2rem 0px;
+
+
     }   
     @media(max-width: 550px) {
         padding: 1rem 1rem 0px;

@@ -9,7 +9,6 @@ import Navbar from "./components/layouts/navbar"
 import Footer from "./components/layouts/Footer"
 
 
-
 function App() {
   return ( 
     <Router>

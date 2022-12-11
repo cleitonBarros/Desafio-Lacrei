@@ -1,9 +1,7 @@
-import Main from "../cstyled/Main"
+import Main from "./Main"
 function Container(props){
     return (
-        <Main >
-            <div className='min-heigh'>{props.children}</div>
-        </Main>
+        <Main >{props.children}</Main>
     )
 
 }
