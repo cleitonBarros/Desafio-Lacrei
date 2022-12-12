@@ -1,4 +1,4 @@
-# Desafio-Lacrei
+#  🏳️‍🌈 Desafio-Lacrei 🏳️‍🌈
 
 <h1 align="center">
   <img  src="./DesafioLacrei/README.img/logo.png" width="200px" />
@@ -32,8 +32,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desafio Lacrei prospoto para partcipara do projeto do voluntariado.
- - O que a Lacrei ? 
+Desafio Lacrei prosposto para partcipar do projeto de voluntariado.
+  - Quem é a Lacrei ? 
   - O Lacrei é o primeiro portal criado para conectar a comunidade LGBTQIA+ a profissionais de saúde, advogades e empresas que respeitam a diversidade oferecendo oportunidades de trabalho e desenvolvimento profissional.  
 Conheça mais pelos links: 
   -  [Portal Lacrei](https://www.portallacrei.com.br/)
