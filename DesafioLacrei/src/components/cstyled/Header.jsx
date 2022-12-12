@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 const Header = styled.header `
     
     display: flex;
@@ -39,7 +40,7 @@ const Header = styled.header `
         justify-content:space-between;
     }
  
-    .item a{
+    .list .item a{
         
         font-style: normal;
         font-weight: 700;
@@ -53,7 +54,7 @@ const Header = styled.header `
     & a:hover{
         opacity: 0.7;
     }
-    & a.active{
+    .list .item a.active{
         color: #018762;
     }
     @media(max-width: 1040px) {

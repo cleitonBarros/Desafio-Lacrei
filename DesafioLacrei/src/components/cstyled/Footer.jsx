@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 const Footer = styled.footer `
     margin: 0px 4rem;
     border-top: 1px solid #b0e0d3;
@@ -27,7 +28,9 @@ const Footer = styled.footer `
     & a:hover{
         opacity: 0.7;
     }
-
+    .list .item a.active{
+        font-weight: 700;
+    }
     .smallText{
         font-size:12px;
         color: #515151;
