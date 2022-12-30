@@ -1,13 +1,19 @@
 import {Link} from 'react-router-dom'
 import Header from '../cstyled/Header'
 import Menu from './menu'
-import {NavData} from './NavData'
+import { Fade , Slide} from "react-awesome-reveal";
+
 function Navbar(){
     return(
         <Header >
-            <nav className="nav">
-                <Link  className="logo" to="/">Lacrei</Link>    
-                <Menu  /> 
+            <nav  className="nav">
+                <Fade triggerOnce={true}>
+                    <Link  className="logo" to="/">Lacrei</Link>    
+                </Fade>
+             
+
+                    <Menu  /> 
+             
             </nav>
         </Header>
     )

@@ -9,18 +9,22 @@ import Navbar from "./components/layouts/navbar"
 import Footer from "./components/layouts/footer"
 
 
+
+
 function App() {
+  
+
   return ( 
     <Router>
-      <Navbar />
-      <Container >
+        <Navbar />
+      <Container  >
         <Routes>
         <Route exact path='/' element={<Home  />} />
         <Route exact path='/PessoaUsuaria' element={<PessoaUsuaria />} />
         <Route exact path='/Profissional' element={<Profissional />} />
         </Routes>
       </Container>
-      <Footer />
+      <Footer  />
     </Router>
   )
 }
